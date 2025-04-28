@@ -19,12 +19,4 @@
 
 > 本书主要内容来自[《一线架构师实践指南》 - 温昱](https://book.douban.com/subject/4031899/)
 
-## 在线阅读
 
-可以通过[GitBook](https://tonydeng.gitbooks.io/architect-manual/)或者[Github](https://tonydeng.github.io/architect-manual)来在线阅读。
-
-也可以下载[PDF](https://www.gitbook.com/download/pdf/book/tonydeng/architect-manual)、[ePub](https://www.gitbook.com/download/epub/book/tonydeng/architect-manual)或者[Mobi](https://www.gitbook.com/download/mobi/book/tonydeng/architect-manual)版本。
-
-## 项目源码
-
-项目源码存放于Github上，见[https://github.com/tonydeng/architect-manual](https://github.com/tonydeng/architect-manual)。
