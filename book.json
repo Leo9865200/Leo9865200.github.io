@@ -18,21 +18,21 @@
         },
         "github-buttons": {
             "buttons": [{
-                    "user": "tonydeng",
-                    "repo": "architect-manual",
+                    "user": "Leo",
+                    "repo": "Leo9865200@githob.io",
                     "type": "star",
                     "size": "small",
                     "count": true
                 },
                 {
-                    "user": "tonydeng",
+                    "user": "Leo",
                     "type": "follow",
                     "size": "small",
                     "width": "170",
                     "count": true
                 }, {
-                    "user": "tonydeng",
-                    "repo": "architect-manual",
+                    "user": "Leo",
+                    "repo": "Leo9865200@githob.io",
                     "type": "watch",
                     "size": "small",
                     "count": true
