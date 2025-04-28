@@ -1,22 +1,127 @@
-# 架构师手册
+# Summary
 
-<p>
-    <img src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000"  alt="Version 1.0"/>
-    <a href="https://tonydeng.github.io/architect-manual">
-        <img alt="Document" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-    </a>
-    <a href="https://github.com/tonydeng/architect-manual/blob/master/LICENSE">
-        <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-    </a>
-</p>
-<p>
-    <a href="https://travis-ci.org/tonydeng/architect-manual">
-        <img alt="Build Status" src="https://travis-ci.org/tonydeng/architect-manual.svg?branch=master">
-    </a>
-</p>
+* [架构师手册](README.md)
 
-**架构，是一种递进的能力。**
+## 前言
 
-> 本书主要内容来自[《一线架构师实践指南》 - 温昱](https://book.douban.com/subject/4031899/)
+* [第1章 手册简介](ch1/README.md)
+  * [1.1. 一线架构师:6个经典困惑](ch1/1.1.md)
+  * [1.2. 4个核心主张](ch1/1.2.md)
+    * [1.2.1. 方法体系是大趋势](ch1/1.2.1.md)
+    * [1.2.2. 质疑驱动的架构设计](ch1/1.2.2.md)
+    * [1.2.3. 多阶段还是多视图？](ch1/1.2.3.md)
+    * [1.2.4. 内置最佳实践](ch1/1.2.4.md)
+  * [1.3. ADMEMS方法体系:3个阶段，一个贯穿](ch1/1.3.md)
+    * [1.3.1. Pre-architecture阶段：ADMEMS矩阵方法](ch1/1.3.1.md)
+    * [1.3.2. Conceptual Architecture阶段：重大需求塑造做概念架构](ch1/1.3.2.md)
+    * [1.3.3. Refined Architecture阶段:落地的 5 视图方法](ch1/1.3.3.md)
+    * [1.3.4 持续关注非功能需求:“目标-场景-决策”表方法](ch1/1.3.4.md)
+  * [1.4. 如何解决“6大困惑”](ch1/1.4.md)
 
+## 第一部分 Pre-Architecture阶段
 
+* [第2章 Pre-architecture的故事](ch2/README.md)
+  * [2.1. “不就是一个MIS吗!”](ch2/2.1.md)
+  * [2.2. “必须把虚拟缓存管理裁剪掉”](ch2/2.2.md)
+  * [2.3. “都是C++的错，换C重写”](ch2/2.3.md)
+  * [2.4. 展望“Pre-architecture阶段篇”](ch2/2.4.md)
+* [第3章 Pre-architecture总论](ch3/README.md)
+  * [3.1. 什么是Pre-architeture](ch3/3.1.md)
+  * [3.2. 实际意义](ch3/3.2.md)
+  * [3.3. 业界现状](ch3/3.3.md)
+  * [3.4. 实践要领](ch3/3.4.md)
+* [第4章 需求结构化与分析约束影响](ch4/README.md)
+  * [4.1. 为什么必须进行需求结构化](ch4/4.1.md)
+  * [4.2. 用ADMEMS矩阵方法进行需求结构化](ch4/4.2.md)
+  * [4.3. 为什么必须分析约束影响](ch4/4.3.md)
+  * [4.4. ADMEMS方法的“约束分类理论”](ch4/4.4.md)
+  * [4.5. Big Picture:架构师应该这样理解约束](ch4/4.5.md)
+  * [4.6. 用ADMEMS矩阵方法辅助约束分析](ch4/4.6.md)
+  * [4.7. 大型B2C网站案例：需求结构化与分析约束影响](ch4/4.7.md)
+  * [4.8. 贯穿案例](ch4/4.8.md)
+
+## 第二部分 Conceptual Architecture阶段
+
+* [第6章 概念架构的故事](ch6/README.md)
+  * [6.1. 一筹莫展](ch6/6.1.md)
+  * [6.2. 制定方针](ch6/6.2.md)
+  * [6.3. 柳暗花明](ch6/6.3.md)
+  * [6.4. 结局与经验](ch6/6.4.md)
+* [第7章 Conceptual Architecture总论](ch7/README.md)
+  * [7.1. 什么是概念架构](ch7/7.1.md)
+  * [7.2. 实际意义](ch7/7.2.md)
+  * [7.3. 业界现状](ch7/7.3.md)
+  * [7.4. 实践要领](ch7/7.4.md)
+* [第8章 初步设计](ch8/README.md)
+  * [8.1. 初步设计对复杂系统的意义](ch8/8.1.md)
+  * [8.2. 鲁棒图简介](ch8/8.2.md)
+  * [8.3. 基于鲁棒图进行初步设计的10条经验](ch8/8.3.md)
+  * [8.4. 贯穿案例](ch8/8.4.md)
+* [第9章 高层分割](ch9/README.md)
+  * [9.1. 高层分割的两种实践套路](ch9/9.1.md)
+  * [9.2. 分层式概念服务架构](ch9/9.2.md)
+  * [9.3. 给架构师的提醒](ch9/9.3.md)
+  * [9.4. 贯穿案例](ch9/9.4.md)
+* [第10章 考虑非功能需求](ch10/README.md)
+  * [10.1. 考虑非功能目标要趁早](ch10/10.1.md)
+  * [10.2. 贯穿案例](ch10/10.2.md)
+
+## 第三部分 Refined Architecture阶段
+
+* [第11章. 细化架构的故事](ch11/README.md)
+  * [11.1. 骄傲的架构师，郁闷的程序员](ch11/11.1.md)
+  * [11.2. 办公室里的争论](ch11/11.2.md)
+  * [11.3. 展望细化架构阶段](ch11/11.3.md)
+* [第12章. 细化架构总论](ch12/README.md)
+  * [12.1. 什么是细化架构](ch12/12.1.md)
+  * [12.2. 实际意义](ch12/12.2.md)
+  * [12.3. 业界现状](ch12/12.3.md)
+  * [12.4. 实践要领](ch12/12.4.md)
+* [第13章. 逻辑架构](ch13/README.md)
+  * [13.1. 划分子系统的3种必用策略](ch13/13.1.md)
+  * [13.2. 接口设计的事实与缪误](ch13/13.2.md)
+  * [13.3. 逻辑架构设计的整体思维套路](ch13/13.3.md)
+  * [13.4. 更多经验总结](ch13/13.4.md)
+  * [13.5. 贯穿案例](ch13/13.5.md)
+* [第14章. 物理架构、运行架构、开发架构](ch14/README.md)
+  * [14.1. 为什么需要物理架构](ch14/14.1.md)
+  * [14.2. 物理架构设计的工作内容](ch14/14.2.md)
+  * [14.3. 探究：物理架构的设计思维](ch14/14.3.md)
+  * [14.4. 为什么需要运行架构](ch14/14.4.md)
+  * [14.5. 运行架构设计的工作内容](ch14/14.5.md)
+  * [14.6. 实现控制流的3种常用手段](ch14/14.6.md)
+  * [14.7. 为什么开发架构是必须的](ch14/14.7.md)
+  * [14.8. 开发架构设计的工作内容](ch14/14.8.md)
+  * [14.9. 观点：重用测试是关键](ch14/14.9.md)
+  * [14.10. 贯穿案例](ch14/14.10.md)
+* [第15章. 数据架构的难点：数据分布](ch15/README.md)
+  * [15.1. 数据分布的6种策略](ch15/15.1.md)
+  * [15.2. 数据分布策略的大局观](ch15/15.2.md)
+  * [15.3. 数据分布策略的3条应用原则](ch15/15.3.md)
+
+## 第四部分 非功能目标的方法论
+
+* [第16章 故事：困扰已久的非功能问题](ch16/README.md)
+  * [16.1. “拜托，架构师不是需求分析师”](ch16/16.1.md)
+  * [16.2. “敢说ISO 9126不对，真牛”](ch16/16.2.md)
+  * [16.3. “我说的很清楚，架构要灵活”](ch16/16.3.md)
+  * [16.4. 展望本部分的后续内容](ch16/16.4.md)
+* [第17章 总论：非功能目标的设计环节](ch17/README.md)
+  * [17.1. 非功能目标的设计环节简介](ch17/17.1.md)
+  * [17.2. 实际意义](ch17/17.2.md)
+  * [17.3. 业界现状](ch17/17.3.md)
+  * [17.4. 实践要领](ch17/17.4.md)
+* [第18章 方法：“目标-场景-决策”表](ch18/README.md)
+  * [18.1. 场景技术](ch18/18.1.md)
+  * [18.2. “目标-场景-决策”表](ch18/18.2.md)
+
+## 第五部分 附录
+
+* [附录A 架构设计原则](appendix-a/README.md)
+  * [基本原则](appendix-a/base.md)
+  * [功能选择](appendix-a/features.md)
+  * [服务端设计与并发](appendix-a/server-design.md)
+  * [分布式系统](appendix-a/distributed-systems.md)
+  * [用户体验](appendix-a/ux.md)
+  * [艰难的问题](appendix-a/hard-problems.md)
+  * [总结](appendix-a/Conclusion.md)
