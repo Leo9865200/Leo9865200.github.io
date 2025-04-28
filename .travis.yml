@@ -15,8 +15,8 @@ deploy:
   github-token:
     secure: APKTIDp6VG7DzjU2WCLIWiIrL36v3sFoiPs_FIR_8Rde1YPlQ5XQ 
   local_dir: _book
-  fqdn: tonydeng.github.io
-  name: Travis CI
-  email: travis@travis-ci.org
+  fqdn: leo9865200.github.io
+  name: Leo
+  email: liusiying.liu27@gmail.com
   on:
     branch: master
