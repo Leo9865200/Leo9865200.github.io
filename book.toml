@@ -1,9 +1,0 @@
-[book]
-title = "架构师手册"
-authors = ["Tony Deng"]
-language = "zh-CN"
-multilingual = false
-src = "."
-
-[build]
-build-dir = "_book"
